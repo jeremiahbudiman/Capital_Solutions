@@ -43,51 +43,51 @@ public class Databasehelper2 extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_1, "1");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "21");
+        contentValues.put(COL_3, "0");
+        contentValues.put(COL_4, "29");
 
         db.insert(TABLE_NAME, null, contentValues);
 
         contentValues.put(COL_1, "2");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "27");
+        contentValues.put(COL_3, "0");
+        contentValues.put(COL_4, "33");
 
         db.insert(TABLE_NAME, null, contentValues);
 
         contentValues.put(COL_1, "3");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "35");
+        contentValues.put(COL_3, "20");
+        contentValues.put(COL_4, "37");
 
         db.insert(TABLE_NAME, null, contentValues);
 
         contentValues.put(COL_1, "4");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "41");
+        contentValues.put(COL_3, "0");
+        contentValues.put(COL_4, "18");
 
         db.insert(TABLE_NAME, null, contentValues);
 
         contentValues.put(COL_1, "5");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "23");
+        contentValues.put(COL_3, "0");
+        contentValues.put(COL_4, "24");
 
         db.insert(TABLE_NAME, null, contentValues);
 
         contentValues.put(COL_1, "6");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "29");
+        contentValues.put(COL_3, "15");
+        contentValues.put(COL_4, "9");
 
         db.insert(TABLE_NAME, null, contentValues);
 
         contentValues.put(COL_1, "7");
-        contentValues.put(COL_2, "blah");
-        contentValues.put(COL_3, "blah");
-        contentValues.put(COL_4, "blah");
+        contentValues.put(COL_2, "44");
+        contentValues.put(COL_3, "0");
+        contentValues.put(COL_4, "20");
 
         db.insert(TABLE_NAME, null, contentValues);
 
